@@ -6,23 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <style>
-        h1 {
-            text-align:center;
-        }
-
-        .nav-link {
-            color:lightgreen;
-        }
-
-        .container {
+        
+        #delivery-form {
             border-radius:5px;
             padding:24px;
             gap:8px;
-        }
-
-        li {
-            padding:24px;
         }
     </style>
 </head>
@@ -53,7 +43,7 @@
     <br><br>
 
     <form action="#">
-        <div class="container" style="background:rgb(159, 223, 172)">
+        <div id="delivery-form" class="container" style="background:rgb(159, 223, 172)">
             <label for="destination" class="form-label">Destination Address:</label>
             <input type="text" class="form-control" placeholder="Enter Street Address" name="address">
             <br>
@@ -80,6 +70,9 @@
     <br>
 
     <h1 class="text-success">Thank you for choosing Planet Express!</h1>
+    <br>
+
+    <img src="PEcrew1_ccexpress.png" alt="*" class="img fluid mx-auto d-block">
 
 
 

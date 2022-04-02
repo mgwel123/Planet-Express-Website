@@ -1,0 +1,20 @@
+.carousel {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.nav-link {
+    color:lightgreen;
+}
+
+li {
+    padding:24px;
+}
+
