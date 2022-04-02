@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .carousel {
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .nav-link {
+            color:lightgreen;
+        }
+
+        li {
+            padding:24px;
+        }
+
+    </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark">
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
 
         <div class="container-fluid">
             <a class=navbar-brand href="#">
@@ -20,15 +42,17 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class=nav-link href="contact.html">Shipping</a>
+                    <a class="nav-link" href="shipping.html">Shipping</a>
                 </li>
                 <li class="nav-item">
-                    <a class=nav-link href="#">Tracking</a>
+                    <a class="nav-link disabled" href="#">Tracking</a>
                 </li>
             </ul>
         </div>
 
     </nav>
+    <br><br><br><br>
+
 
     <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width:40%">
@@ -43,7 +67,7 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="PEcrew2.png" alt="Planet Express Crew" class="d-block" style="width:100%">
+        <img src="PEcrew8.jpg" alt="Planet Express Crew" class="d-block" style="width:100%">
       </div>
       <div class="carousel-item">
         <img src="PEcrew4.jpg" alt="Planet Express Crew" class="d-block" style="width:100%">
@@ -61,6 +85,48 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
+  <br><br>
+
+  <h1>"Our crew is replaceable, your package isn't!"</h1>
+  <br><br>
+
+  <div class="container mt-3">
+      <h2>Shipping Rates Estimates</h2>
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> We cannot accept delivery orders for packages above quoted estimates at this time.
+      </div>
+      <table class="table table-striped">
+          <thead>
+              <tr>
+                  <th>Dimensions</th>
+                  <th>Weight</th>
+                  <th>Estimated Rate*</th>
+              </tr>
+          <t/head>
+          <tbody>
+              <tr style="height:40px">
+                  <td>10"x 20" x 20"</td>
+                  <td>Less than 150lbs</td>
+                  <td>$22.99</td>
+              </tr>
+              <tr>
+                  <td>2' x 4' x 4'</td>
+                  <td>Less than 300lbs</td>
+                  <td>$34.99</td>
+              </tr>
+              <tr>
+                  <td>3' x 5' x 5'</td>
+                  <td>Less than 500lbs</td>
+                  <td>$49.99</td>
+              </tr>
+          </tbody>
+      </table>
+      <p>*Long-distance charges may apply if your delivery distance is greater than 300 Light Years</p>
+
+  </div>
+
+
+
 
 
     
